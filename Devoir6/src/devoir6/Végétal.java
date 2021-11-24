@@ -26,7 +26,5 @@ public abstract class Végétal {
 		}
 	}
 	
-	public void manger() {
-		
-	}
+	public abstract void couper();
 }
