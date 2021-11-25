@@ -13,7 +13,7 @@ public class Promotion {
 	/**Affichage des étudiants de la promotion*/
 	public void Afficher() { 
 		System.out.println("Liste des étudiants:");
-		for (Etudiant temp : liste_etu_) {
+		for(Etudiant temp : liste_etu_) {
 			System.out.println("----------------");
 			temp.Afficher();
         }
